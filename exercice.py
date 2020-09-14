@@ -16,7 +16,6 @@ def square(a: float) -> float:
 
 def average(a: float, b: float, c: float) -> float:
     
-    
     return math.fsum([a, b, c])/3
 
 
