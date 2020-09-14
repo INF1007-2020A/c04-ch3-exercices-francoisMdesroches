@@ -41,6 +41,7 @@ def to_degrees(angle_rads: float) -> tuple:
 
     return degres - minutes, minutes - seconds, seconds
 
+    #Ceci est mon code en commentaire
     #return les_degres, les_minutes, les_secondes
 
 
