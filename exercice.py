@@ -29,7 +29,7 @@ def to_degrees(angle_rads: float) -> tuple:
     #Commentaire ici: J'aime mieux coder en Français, car ainsi, je sai ce qui vient de moi!
 
     angle_degs = math.degrees(angle_rads)
-    les_degres = int(angle_degs)
+    les_degres = math(angle_degs)
     les_minutes = int((angle_degs - les_degres)*60)
     les_secondes = (angle_degs - les_degres - (les_minutes/60))*3600
 
