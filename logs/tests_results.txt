@@ -1,5 +1,5 @@
 test_average (__main__.TestExercice) ... ERROR
-test_square (__main__.TestExercice) ... FAIL
+test_square (__main__.TestExercice) ... ok
 test_square_root (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... FAIL
 test_to_degrees (__main__.TestExercice) ... FAIL
@@ -17,21 +17,6 @@ Traceback (most recent call last):
   File "/home/runner/work/c04-ch3-exercices-francoisMdesroches/c04-ch3-exercices-francoisMdesroches/exercice.py", line 17, in average
     return math.fsum(a, b, c)/3
 TypeError: fsum() takes exactly one argument (3 given)
-
-======================================================================
-FAIL: test_square (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 34, in test_square
-    'Mauvais calcul du carré'
-AssertionError: Lists differ: [162754.79141900392, 7.225973768125749e+86, 485165195.4097903] != [144, 40000, 400]
-
-First differing element 0:
-162754.79141900392
-144
-
-- [162754.79141900392, 7.225973768125749e+86, 485165195.4097903]
-+ [144, 40000, 400] : Mauvais calcul du carré
 
 ======================================================================
 FAIL: test_to_celsius (__main__.TestExercice)
@@ -99,4 +84,4 @@ First differing element 0:
 ----------------------------------------------------------------------
 Ran 7 tests in 0.002s
 
-FAILED (failures=5, errors=1)
+FAILED (failures=4, errors=1)
