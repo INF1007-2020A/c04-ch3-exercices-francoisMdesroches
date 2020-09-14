@@ -35,6 +35,7 @@ def to_degrees(angle_rads: float) -> tuple:
 
     #Autre commentaire: je ne comprend pas pourquoi ce code fonctionne alors que le mien ne fonctionne pas
     #Je veux dire, j'ai des beaux chiffres ronds et de la précision.
+    #En fait, je comprendns pourquoi
     degres = math.degrees(angle_rads)
     minutes = (degres % 1) * 60
     seconds = (minutes % 1) * 60
