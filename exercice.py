@@ -10,11 +10,12 @@ def square_root(a: float) -> float:
 
 
 def square(a: float) -> float:
-    print(math.pow(a,2))
+    
     return math.pow(a, 2)
 
 
 def average(a: float, b: float, c: float) -> float:
+    
     return math.fsum(a, b, c)/3
 
 
