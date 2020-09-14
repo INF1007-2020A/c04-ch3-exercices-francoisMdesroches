@@ -10,6 +10,8 @@ def square_root(a: float) -> float:
 
 
 def square(a: float) -> float:
+
+    
     return math.pow(a, 2)
 
 
