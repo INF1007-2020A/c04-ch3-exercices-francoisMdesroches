@@ -14,7 +14,7 @@ Traceback (most recent call last):
     output = [exercice.average(*v) for v in values]
   File "test_exercice.py", line 44, in <listcomp>
     output = [exercice.average(*v) for v in values]
-  File "/home/runner/work/c04-ch3-exercices-francoisMdesroches/c04-ch3-exercices-francoisMdesroches/exercice.py", line 17, in average
+  File "/home/runner/work/c04-ch3-exercices-francoisMdesroches/c04-ch3-exercices-francoisMdesroches/exercice.py", line 18, in average
     return math.fsum(a, b, c)/3
 TypeError: fsum() takes exactly one argument (3 given)
 
